@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-container {
+  @apply px-6 md:px-12  max-w-[1440px] mx-auto
+}
+
+.heading{
+  @apply tracking-[.8rem] text-gray-400 font-bold uppercase
+}
